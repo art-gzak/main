@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        <script type="text/javascript">
+function showcaps(i)
+{
+  document.getElementById("c"+i).style.color = 'yellow'; 
+  switch(i)
+  {
+    case 1: 
+  	{
+		document.getElementById("face").style.background = 'transparent url(WarholP2B.gif) no-repeat 0 0';
+		break;
+  	}
+	 case 2: 
+  	{
+		document.getElementById("stamp").style.background = 'transparent url(WarholP2C.gif) no-repeat 0 0';
+		break;
+  	}
+	 case 3: 
+  	{
+		document.getElementById("bannana").style.background = 'transparent url(WarholP2D.gif) no-repeat 0 0';
+		break;
+  	}
+  }
+}
+function hidecaps(i)
+{
+ document.getElementById("c"+i).style.color = 'white';
+ switch(i)
+ {
+ 	case 1: 
+	{				
+		document.getElementById("face").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 2: 
+	{				
+		document.getElementById("stamp").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 3: 
+	{				
+		document.getElementById("bannana").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+ }
+}
+        </script>
+        <title>Warhol</title>
+        
+        <style type="text/css">
+            
+            body {background: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10pt;}
+            
+            #gmap {display:block; width:800px; height:800px; background:url(WarholP2A.gif); position:relative;}
+            
+            a#title2, a#title2:visited {display:block; width:800px; height:800px; padding-top:0px;}
+            
+            #gmap a#title2:hover {background:transparent url(WarholP2.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#face {display:block; width:257px; height:342px; padding-top:0px; overflow:hidden; position:absolute; left:27px; top:254px;}
+            a#face:hover {background:transparent url(WarholP2B.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#stamp {display:block; width:192px; height:204px; padding-top:0px; overflow:hidden; position:absolute; left:504px; top:589px;}
+            a#stamp:hover {background:transparent url(WarholP2C.gif) no-repeat  0 0; overflow:visible;}
+            
+            a#bannana {display:block; width:182px; height:216px; padding-top:0px; overflow:hidden; position:absolute; left:609px; top:75px;}
+            a#bannana:hover {background:transparent url(WarholP2D.gif) no-repeat 0 0; overflow:visible;}
+            
+            #c1div
+            {padding: 2px;}
+            #c1div a:link
+            {display:block;background:#000000;}
+            #c2div
+            {padding: 2px;}
+            #c2div a:link
+            {display:block;background:#000000;}
+            #c3div
+            {padding: 2px;}
+            #c3div a:link
+            {display:block;background:#000000;}
+            
+            #c1
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c1 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3 a:link 
+            {color: #ffffff; display:block; text-decoration: none;}
+           
+        </style>
+        
+    </head>
+    
+    <body >
+        <table align="center" border="0">
+            <tr>
+                <td>
+                    <dl id="gmap">
+                        <dt><a id="title2" href="#nogo"></a></dt>
+                        <dd><a id="face" title="face" href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);"></a></dd>
+                        <dd><a id="stamp" title="stamp" href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);"></a></dd>
+                        <dd><a id="bannana" title="bannana" href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);"></a></dd>
+                    </dl>
+                </td>
+                <td width="200">
+                    <div id="c1div">
+                        <a href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);" id="c1">
+                           
+                                Self portrait of Andy Warhol digitally
+                                embedded into nearby plants of his grave.
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c2div">
+                        <a href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);" id="c2">
+                           
+                                August 2002<br>
+                                Andy Warhol was featured on a new commemorative postage stamp issued in Pittsburgh by the United States Postal Service.
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c3div">
+                        <a href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);" id="c3">
+                            
+                                In the mid 1960s, Warhol adopted the band The Velvet Underground, making them a crucial element of
+                                the Exploding Plastic Inevitable multimedia performance art show. It was released by Verve Records in March 1967.
+                                The album cover was famous for its Warhol design: a bright yellow banana with "Peel slowly and see"
+                                printed near a perforated tab. Those who did remove the banana skin found a pink, peeled banana beneath.
+                           <br><br>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td align="center">
+                    <a href="wp1.html"><img src="previous.gif" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="wp3.html"><img src="next.gif" border="0"></a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

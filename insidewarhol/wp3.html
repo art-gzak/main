@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        <script type="text/javascript">
+function showcaps(i)
+{
+  document.getElementById("c"+i).style.color = 'yellow'; 
+  switch(i)
+  {
+    case 1: 
+  	{
+		document.getElementById("face").style.background = 'transparent url(WarholP3B.gif) no-repeat 0 0';
+		break;
+  	}
+	 case 2: 
+  	{
+		document.getElementById("magazines").style.background = 'transparent url(WarholP3C.gif) no-repeat 0 0';
+		break;
+  	}
+	 case 3: 
+  	{
+		document.getElementById("quote").style.background = 'transparent url(WarholP3D.gif) no-repeat 0 0';
+		break;
+  	}
+  }
+}
+function hidecaps(i)
+{
+ document.getElementById("c"+i).style.color = 'white';
+ switch(i)
+ {
+ 	case 1: 
+	{				
+		document.getElementById("face").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 2: 
+	{				
+		document.getElementById("magazines").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 3: 
+	{				
+		document.getElementById("quote").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+ }
+}
+        </script>
+        <title>Warhol</title>
+        
+        
+        <style type="text/css">
+            
+            body {background: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10pt;}
+            
+            #gmap {display:block; width:800px; height:800px; background:url(WarholP3A.gif); position:relative;}
+            
+            a#title2, a#title2:visited {display:block; width:800px; height:800px; padding-top:0px;}
+            
+            #gmap a#title2:hover {background:transparent url(WarholP3.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#face {display:block; width:257px; height:342px; padding-top:0px; overflow:hidden; position:absolute; left:27px; top:254px;}
+            a#face:hover {background:transparent url(WarholP3B.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#magazines {display:block; width:594px; height:248px; padding-top:0px; overflow:hidden; position:absolute; left:94px; top:552px;}
+            a#magazines:hover {background:transparent url(WarholP3C.gif) no-repeat  0 0; overflow:visible;}
+            
+            a#quote {display:block; width:403px; height:235px; padding-top:0px; overflow:hidden; position:absolute; left:286px; top:289px;}
+            a#quote:hover {background:transparent url(WarholP3D.gif) no-repeat 0 0; overflow:visible;}
+            
+            #c1div
+            {padding: 2px;}
+            #c1div a:link
+            {display:block;background:#000000;}
+            #c2div
+            {padding: 2px;}
+            #c2div a:link
+            {display:block;background:#000000;}
+            #c3div
+            {padding: 2px;}
+            #c3div a:link
+            {display:block;background:#000000;}
+          
+            
+            #c1
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c1 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3 a:link 
+            {color: #ffffff; display:block; text-decoration: none;}
+           
+        </style>
+        
+        
+    </head>
+    
+    <body >
+        <table align="center" border="0">
+            <tr>
+                <td>
+                    <dl id="gmap">
+                        <dt><a id="title2" href="#nogo"></a></dt>
+                        <dd><a id="face" title="face" href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);"></a></dd>
+                        <dd><a id="magazines" title="magazines" href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);"></a></dd>
+                        <dd><a id="quote" title="quote" href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);"></a></dd>
+                    </dl>
+                </td>
+                <td width="200">
+                    <div id="c1div">
+                        <a href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);" id="c1">
+                            
+                                Self-Portrait, Andy Warhol,  1964
+                                This self portrait of Andy Warhol digitally
+                                embedded into nearby plants of his grave.
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c2div">
+                        <a href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);" id="c2">
+                           
+                                Interview is a magazine founded by artist 
+                                Andy Warhol and Gerard Malanga in 1969.
+                                Dedicated to the cult of celebrity which fascinated Warhol, 
+                                it featured cutting-edge graphics and interviews of celebrities.
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c3div">
+                        <a href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);" id="c3">
+                           
+                                The meaning of FIGMENT on his tombstone.
+                                Andy Warhol died February 22, 1987 from
+                                complications after a gall bladder operation.
+                            <br><br>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr align="center">
+                <td align="center">
+                    <a href="wp2.html"><img src="previous.gif" border="0"></a>&nbsp;&nbsp;&nbsp;<a href="wp4.html"><img src="next.gif" border="0"></a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

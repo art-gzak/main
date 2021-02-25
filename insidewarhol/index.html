@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        <script type="text/javascript">
+function showcaps(i)
+{
+  document.getElementById("c"+i).style.color = 'yellow'; 
+  switch(i)
+  {
+    case 1: 
+  	{
+		document.getElementById("c1").style.visibility = 'visible';
+		document.getElementById("zaknut").style.background = 'transparent url(Warhol0B.gif) no-repeat 0 0';
+		document.getElementById("c5").style.color = 'yellow'; 
+		break;
+  	}
+	 case 2: 
+  	{
+		document.getElementById("aw").style.background = 'transparent url(Warhol0C.gif) no-repeat 0 0';
+		break;
+  	}
+	 case 3: 
+  	{
+		document.getElementById("board").style.background = 'transparent url(Warhol0D.gif) no-repeat 0 0';
+		break;
+  	}
+	case 4:
+	{
+		document.getElementById("c4").style.visibility = 'visible';	
+		break;
+	}
+  }
+}
+function hidecaps(i)
+{
+ document.getElementById("c"+i).style.color = 'white';
+ switch(i)
+ {
+ 	case 1: 
+	{				
+		document.getElementById("c1").style.visibility = 'hidden';
+		document.getElementById("zaknut").style.background = 'transparent no-repeat 0 0';
+		document.getElementById("c5").style.color = 'white';
+		break;
+	}
+	case 2: 
+	{				
+		document.getElementById("aw").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 3: 
+	{				
+		document.getElementById("board").style.background = 'transparent no-repeat 0 0';
+		break;
+	}
+	case 4:
+	{
+		document.getElementById("c4").style.visibility = 'hidden';	
+		break;
+	}
+ }
+}
+        </script>
+        <title>Warhol</title>        
+        <style type="text/css">
+            
+            body {background: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 10pt;}
+            
+            #gmap {display:block; width:600px; height:800px; background:url(Warhol0A.gif); position:relative;}
+            
+            a#title2, a#title2:visited {display:block; width:600px; height:800px; padding-top:0px;}
+            
+            #gmap a#title2:hover {background:transparent url(Warhol0.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#zaknut {display:block; width:316px; height:86px; padding-top:0px; overflow:hidden; position:absolute; left:142px; top:0px;}
+            a#zaknut:hover {background:transparent url(Warhol0B.gif) no-repeat 0 0; overflow:visible;}
+            
+            a#aw {display:block; width:380px; height:500px; padding-top:0px; overflow:hidden; position:absolute; left:220px; top:87px;}
+            a#aw:hover {background:transparent url(Warhol0C.gif) no-repeat  0 0; overflow:visible;}
+            
+            a#board {display:block; width:352px; height:213px; padding-top:0px; overflow:hidden; position:absolute; left:119px; top:587px;}
+            a#board:hover {background:transparent url(Warhol0D.gif) no-repeat 0 0; overflow:visible;}
+            
+            #c1div
+            {padding: 2px;}
+            #c1div a:link
+            {display:block;background:#000000;}
+            #c2div
+            {padding: 2px;}
+            #c2div a:link
+            {display:block;background:#000000;}
+            #c3div
+            {padding: 2px;}
+            #c3div a:link
+            {display:block;background:#000000;}
+            #c4div
+            {padding: 2px;}
+            #c4div a:link
+            {display:block;background:#000000;}
+            #c5div
+            {padding: 2px;}
+            #c5div a:link
+            {display:block;background:#000000;}
+            
+            #c1
+            {color: #ffffff; display:block; text-decoration: none; visibility: hidden;}
+            #c1 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c2 a:link
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c3 a:link 
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c4
+            {color: #ffffff; display:block; text-decoration: none;  visibility: hidden;}
+            #c4 a:link 
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c5
+            {color: #ffffff; display:block; text-decoration: none;}
+            #c5 a:link 
+            {color: #ffffff; display:block; text-decoration: none;}
+        </style>      
+    </head>  
+    <body >
+        <table align="center" border="0">
+            <tr>
+                <td valign="bottom">
+                    <a href="#" onMouseOver="showcaps(4);" onMouseOut="hidecaps(4);"><img src="AALogo.gif" border="0" vspace="100"></a>
+                </td>
+                <td valign="top">
+                    <table>
+                        <tr>
+                            <td>
+                                <dl id="gmap">
+                                    <dt><a id="title2" href="#nogo"></a></dt>
+                                    <dd><a id="zaknut" title="zaknut" href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);"></a></dd>
+                                    <dd><a id="aw" title="aw" href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);"></a></dd>
+                                    <dd><a id="board" title="board" href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);"></a></dd>
+                                </dl>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>
+                                <a href="wp1.html"><img src="next.gif" border="0"></a>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                    
+                </td>
+                <td width="425" valign="top">
+                    <div id="c4div">
+                        <a href="#" onMouseOver="showcaps(4);" onMouseOut="hidecaps(4);" id="c4">
+                           
+                                Andy Warhol was a member of Associated Artists of Pittsburgh in 1948 and 1949.
+                                His painting. I Like Dance and his print Dance in Black and White were included in the annual exhibition in 1948.
+                                In 1949, Warhol's painting The Broad Gave Me My Face, But I Can Pick My Own Nose was rejected for the annual exhibition of 
+                                the Associated Artists of Pittsburgh.
+                                Juror George Grosz, the German artist, was said to have praised the work. It was later included in a student exhibition at 
+                                Pittsburgh's Arts and Crafts Center. 
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c2div">
+                        <a href="#" onMouseOver="showcaps(2);" onMouseOut="hidecaps(2);" id="c2">
+                           
+                                A commemorative spoof of Andy Warhol being a pop artist
+                                depicted by an A & W Root Beer bottle with his brief achievements as labeled ingredients
+                           <br><br>
+                        </a>
+                    </div>
+                    <div id="c3div">
+                        <a href="#" onMouseOver="showcaps(3);" onMouseOut="hidecaps(3);" id="c3">
+                           
+                                A digital spoof of the commercial merchandise of his style selling today since his death.  
+                                Also, this jigsaw puzzle box is a tribute piece whereby it is a time capsule of sealed enclosed items.
+                           <br><br>
+                        </a>
+                    </div>	
+                    <div id="c5div">
+                        <p>
+                            <a href="mailto:gzak2@verizon.net?Subject=Warhol" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);" id="c5">
+                                Zaknut<br>
+                                My signature piece digitally derived from a Zagnut candy bar.<br>
+                                gzak2@verizon.net- Click here to e-mail
+                            </a> 
+                        </p>
+                    </div>
+                    <div id="c1div">
+                        <a href="#" onMouseOver="showcaps(1);" onMouseOut="hidecaps(1);" id="c1">
+                           
+                                "PhotoSHOPPING the Pop Legend's Epitaph" by Gary Zak
+                                With actual photographs taken of Warhol's gravesite, my intent was to blur the distinctions of what's real
+                                with creative manipulation in Adobe Photoshop software. For example, the Coke bottles and Campbell's
+                                soup cans were actually placed on the grave while the other
+                                elements were digitally inserted into the shot. I want to push or alter the final composition
+                                to look more like hand painted rendering than a photograph. My main focus was to capture
+                                his achievements and add my own spoofs of the merchandise marketing of Warhol as
+                                modern day cultural items such as the A&amp;W root beer.
+                                Finally , as my age advances, this project deals
+                                with my own mortality issue and the anxiety surrounding it.
+                                No one gets out of this world alive.
+                            <br><br>
+                           
+                                Andy Warhol's gravesite is located<br>
+                                ST. JOHN THE BAPTIST BYZANTINE GREEK CATHOLIC<br>
+                                Connor Rd. & Rt. 88,Castle Shannon, PA 15234<br>
+                                Pittsburgh, PA 15234<br>
+                           
+                        </a>
+                    </div>
+                </td>			
+            </tr>
+        </table>
+    </body>
+</html>
